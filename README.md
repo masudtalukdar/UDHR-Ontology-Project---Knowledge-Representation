@@ -5,12 +5,16 @@
 
 ## Overview
 
-The UDHR Ontology Project aims to create a structured representation of the basic legal concepts outlined in the Universal Declaration of Human Rights (UDHR). This ontology facilitates a better understanding, sharing, and interoperability of human rights concepts across various platforms and systems.
+This project, known as the UDHR Ontology Project, contains an ontology designed to model various entities and their relationships within the domain of human rights as outlined in the Universal Declaration of Human Rights (UDHR). The ontology is represented in OWL (Web Ontology Language) and includes classes, properties, and individuals pertinent to this domain. It aims to create a structured representation of the basic legal concepts in the UDHR, facilitating better understanding, sharing, and interoperability of human rights concepts across various platforms and systems.
 
 ## Files
 
 - **UDHR_Ontology.rdf**: RDF serialization of the UDHR ontology, including classes, subclasses, object properties, data properties, and individuals.
 - **UDHR_Ontology.owl**: OWL serialization of the UDHR ontology, providing a formal representation of the legal concepts in OWL 2.0.
+
+## Visualization
+
+The `Radial_Ontology and Tree- Horizontal_Ontology` provides a visual representation of the ontology, illustrating the classes and their interrelationships. This diagram can help users understand the structure and the various connections between different elements.
 
 ## Structure
 
@@ -134,6 +138,33 @@ The ontology includes specific instances to illustrate the rights:
 ## Usage
 
 This ontology can be used in semantic web applications, legal information systems, educational tools, and human rights advocacy platforms to enable structured representation and reasoning over human rights concepts.
+
+To load and explore the ontology, you can use various tools and libraries, such as:
+
+- **Protege**: A free, open-source ontology editor and framework for building intelligent systems.
+- **Owlready2**: A Python module for ontology-oriented programming. (Note: Ensure you have this library installed in your environment.)
+
+### Example Code (Using Owlready2)
+
+```python
+from owlready2 import *
+
+# Load the ontology
+onto = get_ontology("path_to/UDHR_Ontology_2.0.owl").load()
+
+# Explore classes
+for cls in onto.classes():
+    print(cls.name)
+
+# Explore properties
+for prop in onto.properties():
+    print(prop.name)
+
+# Explore individuals
+for ind in onto.individuals():
+    print(ind.name)
+```
+
 
 ## Acknowledgments
 
