@@ -1,5 +1,7 @@
 # UDHR-Ontology_2.0-Project---Knowledge-Representation
 
+## Basic legal concepts in the UDHR
+
 
 ## Overview
 
