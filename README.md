@@ -137,5 +137,5 @@ This ontology can be used in semantic web applications, legal information system
 
 ## Acknowledgments
 
-This project was developed as part of the Knowledge Representation course at the University of Verona - Italy, based on guidelines provided by the course instructor [Matteo Cristani](#https://www.di.univr.it/?ent=persona&id=62&lang=en#tab-didattica)
+This project was developed as part of the Knowledge Representation course at the University of Verona - Italy, based on guidelines provided by the course instructor, [Matteo Cristani](https://www.di.univr.it/?ent=persona&id=62&lang=en#tab-didattica).
 
